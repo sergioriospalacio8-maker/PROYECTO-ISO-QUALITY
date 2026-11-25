@@ -754,3 +754,71 @@ textarea {
 .example-section {
   padding: 90px 0;
 }
+
+ .example-card {
+  padding: 25px;
+  background: #f5f5f5;
+  border-left: 3px solid #ff8b3d;
+}
+
+.example-card p {
+  margin-bottom: 17px;
+  color: #000000;
+  font-size: 11px;
+}
+
+.example-card strong,
+.example-card span {
+  display: block;
+}
+
+.example-card strong {
+  font-size: 12px;
+}
+
+.example-card span {
+  color: #aaa;
+  font-size: 10px;
+}
+
+
+.cta-section {
+  min-height: 270px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assests/images/bg2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 15, 20, 0.78);
+}
+
+.cta-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.cta-content h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.cta-content .orange-line {
+  margin: 15px auto;
+}
+
+.cta-content p {
+  margin-bottom: 20px;
+  color: #ddd;
+  font-size: 11px;
+}
