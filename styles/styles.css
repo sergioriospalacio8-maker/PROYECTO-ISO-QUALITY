@@ -107,3 +107,112 @@ textarea {
 .hero-copy {
   max-width: 560px;
 }
+
+  .eyebrow,
+.section-kicker {
+  color: #ff8b3d;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero-copy h1 {
+  margin: 13px 0;
+  font-size: 76px;
+  line-height: 0.98;
+  font-weight: 800;
+  letter-spacing: -4px;
+}
+
+.orange {
+  color: #ff8b3d;
+}
+
+.hero-copy h2 {
+  font-size: 25px;
+  line-height: 1.3;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero-description {
+  max-width: 470px;
+  margin: 20px 0 25px;
+  color: #ddd;
+  font-size: 12px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 22px;
+  border: 0;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button-outline {
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.button-outline:hover {
+  color: #333;
+  background: #fff;
+}
+
+.button-orange {
+  color: #fff;
+  background: #ff8b3d;
+}
+
+.button-orange:hover {
+  background: #ed7628;
+}
+
+.hero-card {
+  width: 100%;
+  max-width: 350px;
+  justify-self: end;
+  color: #333;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.hero-card h3 {
+  padding: 17px 12px;
+  background: #fafafa;
+  text-align: center;
+  font-size: 13px;
+}
+
+.hero-card-content {
+  padding: 18px 25px 0;
+}
+
+.hero-card-content p {
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 11px;
+}
+
+.hero-card-content a {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 2px;
+  border-bottom: 1px solid #eee;
+}
+
+.hero-card-content strong {
+  color: #444;
+  font-size: 13px;
+}
+
+.hero-card-content span {
+  color: #000000;
+  font-size: 10px;
+}
