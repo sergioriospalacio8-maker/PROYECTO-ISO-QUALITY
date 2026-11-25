@@ -216,3 +216,115 @@ textarea {
   color: #000000;
   font-size: 10px;
 }
+
+   .button-full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.social-strip {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.social-content {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.social-description strong,
+.social-description span {
+  display: block;
+}
+
+.social-description strong {
+  font-size: 13px;
+}
+
+.social-description span {
+  color: #aaa;
+  font-size: 10px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.social-icons a {
+  width: 27px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 26px;
+  height: 26px;
+  display: block;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.42;
+  transition: opacity 0.2s ease;
+}
+
+.social-icons a:hover img {
+  opacity: 0.9;
+}
+
+.tabs-section {
+  padding: 95px 0;
+  background: #f5f5f5;
+}
+
+.tabs-layout {
+  display: grid;
+  grid-template-columns: 1fr 245px;
+  align-items: center;
+  gap: 55px;
+}
+
+.tab-selector {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: stretch;
+  gap: 40px;
+}
+
+.tab-selector input {
+  display: none;
+}
+
+.tab-buttons {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.tab-buttons label {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #333;
+  border-bottom: 1px solid #555;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#tab-one:checked ~ .tab-buttons label[for="tab-one"],
+#tab-two:checked ~ .tab-buttons label[for="tab-two"],
+#tab-three:checked ~ .tab-buttons label[for="tab-three"],
+.tab-buttons label:hover {
+  background: #ff8b3d;
+}
